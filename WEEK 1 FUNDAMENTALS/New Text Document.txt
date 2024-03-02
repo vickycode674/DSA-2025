@@ -1,0 +1,18 @@
+ 
+TIME COMPLEXITY (6/2/24)
+
+LINEAR VS BINARY SEARCH AND ITS USE CASES
+
+QUESTION OF THE DAY
+
+middle of three --> 
+
+my apporoach --> using condition and various loops
+
+-->other vector approach by converting the numbers into a array and 
+   sorted out and printed the middle number
+
+-->Another person used approach of max between using max function
+
+
+Bit Manipulation [lcs and rcs]  (8/2/24)
