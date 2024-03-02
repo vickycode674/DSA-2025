@@ -1,0 +1,15 @@
+completed bit magic and solved a question 
+
+q1.[on subtract multiplication and add using] leet code
+    Best version with the help of templates
+
+q2.) Number of 1 Bits 
+
+q3 .) Reverse bit numbers
+
+q4.) Reversing a integer numbers with equvalent range
+
+
+Day 2 [12/2]
+
+Q1.) Print the largest element in the array 
