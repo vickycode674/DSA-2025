@@ -17,21 +17,21 @@ class Solution {
         }
     };
 
-    // class Solution {
-        // public:
-        //     int maximumCount(vector<int>& nums) {
-        //         int n = nums.size();
+    class Solution {
+        public:
+            int maximumCount(vector<int>& nums) {
+                int n = nums.size();
                 
-        //         // Find first positive number index
-        //         int posIdx = lower_bound(nums.begin(), nums.end(), 1) - nums.begin();
+                // Find first positive number index
+                int posIdx = lower_bound(nums.begin(), nums.end(), 1) - nums.begin();
                 
-        //         // Find first non-negative number index (all negatives are before it)
-        //         int negIdx = lower_bound(nums.begin(), nums.end(), 0) - nums.begin();
+                // Find first non-negative number index (all negatives are before it)
+                int negIdx = lower_bound(nums.begin(), nums.end(), 0) - nums.begin();
                 
-        //         int posCount = n - posIdx; // Elements from posIdx to end are positive
-        //         int negCount = negIdx; // Elements before negIdx are negative
+                int posCount = n - posIdx; // Elements from posIdx to end are positive
+                int negCount = negIdx; // Elements before negIdx are negative
                 
-        //         return max(posCount, negCount);
-        //     }
-        // };
+                return max(posCount, negCount);
+            }
+        };
         
