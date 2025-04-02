@@ -10,6 +10,6 @@ class Solution {
                 result.push_back(c);
             }
         }
-        return result;
+        return result;    
         }
     };
